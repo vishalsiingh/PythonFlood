@@ -18,6 +18,6 @@
 names="Vishal"
 print(len(names))
 print(names[0:4])# n-1 tk chlta h 
-print(names[:4])# n-1 tk chlta h 
+print(names[:4])# n-1 tk chlta h  SLICING
 print(names[1:4])# n-1 tk chlta h 
-print(names[0:-3])# n-1 tk chlta h 
+print(names[0:-3])# len(names)-3 6-3=3 isliyee Vis bss print ho rha NEGATTIVE SLICING
