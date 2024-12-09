@@ -2,6 +2,7 @@
 # Keyword Arguments
 # Variable length Arguments
 # Required Arguments
+
 # def Average(a,b):
 #     print("Avergae of two numbers",(a+b)/2)
 # Average(2,5)  

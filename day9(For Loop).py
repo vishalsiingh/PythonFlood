@@ -1,9 +1,9 @@
-# # #FOR LOOP
-# # names=["Vishal","Anja","Vkash","Anvi"]
-# # for name in names:
-# #     print(name)
-# #     for i in name:
-# #      print(i)
+# #FOR LOOP
+# names=["Vishal","Anja","Vkash","Anvi"]
+# for name in names:
+#     print(name)
+#     for i in name:
+#      print(i)
 # for k in range(1,9):
 #  print(k+1)
 
@@ -13,7 +13,7 @@
 # for k in range(2,20,2):
 #     print(k)
 
-                   # DO WHILE LOOP EMALUATION
+#                    #DO WHILE LOOP EMALUATION
 # do{
 #     #loop body
 # }

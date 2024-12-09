@@ -47,5 +47,5 @@ m = [900, 1000, 1100] # koi aur m naam ka list h
 l.extend(m) # iska mtlb l ko kholo nd ye m  list ka vlaue enter kra do 
 
 
-k=l+m #  naya list hi bna do do lsit ko concatenate kr ke 
+k=l+m #  naya list hi bna do do lsit ko concatenate kr ke       
 print(k)

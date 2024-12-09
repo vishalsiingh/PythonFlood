@@ -24,3 +24,4 @@ isGreater(c, d)
 calculateGmean(c, d)
 # gmean2 = (c*d)/(c+d)
 # print(gmean2)
+
