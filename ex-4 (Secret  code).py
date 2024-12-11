@@ -27,7 +27,7 @@ def encode(word):
     if len(word) < 3:
         return word[::-1]  # Reverse the word but -1 HELLO   _1,-1 krte krte o,l,l,e,h
     else:
-        return "abc" + word[1:] + word[0] + "xyz"  # Modify the word
+        return "abc" + word[1:] + word[0]+ "xyz" # Modify the word
 
 def decode(word):
     if len(word) < 3:
