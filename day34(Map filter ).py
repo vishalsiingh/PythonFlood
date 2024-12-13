@@ -9,14 +9,14 @@ newl=[]
 # for item in l:
 #     newl.append(cube(item))
 # newl=list(map(cube,l)) # this is why map is used
-newl=list(map(lambda x:x*x*x,l)) # this is why map is used
+newl=list(map(lambda x:x*x*x,l)) # this is why lambda map is used
 print(newl)
 
 #FILTER higher order function
 
 def filter_fun(a):
     return a>2
-newnewl= list(filter(filter_fun,l))
+newnewl= list(filter(filter_fun,l)) #returns boolean 
 print(newnewl)
 
 
