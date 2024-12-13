@@ -9,6 +9,8 @@ with open('file.txt','r') as f:
     print(f.tell()) # ye current postion return kr dega 
     data =f.read(5) # wha se next 5 character read karega 
     print(data)
+  
+
 
 
  
