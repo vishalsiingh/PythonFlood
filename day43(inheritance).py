@@ -8,7 +8,7 @@ class Employee:
     
 class  programmer(Employee):
         def showlang(self):
-         print("h=my fav lang is Python")
+         print("my fav lang is Python")
 
 
 e=Employee("vishal",420)
