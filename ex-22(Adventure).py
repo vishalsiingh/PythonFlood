@@ -49,5 +49,5 @@ def right_path():
     print("\nYou chose the right path and fall into a hidden trap.")
     print("Unfortunately, you couldn't escape. Game over.")
 
-# Start the game
+
 start_adventure()
