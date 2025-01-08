@@ -1,0 +1,15 @@
+def check_word_count(text):
+    # Split the text into words using whitespace as a delimiter
+    words = text.split()
+    # Count the number of words
+    word_count = len(words)
+    
+    # Check if the word count is less than 100
+    if word_count < 100:
+        print(f"The input has {word_count} words, which is less than 100.")
+    else:
+        print(f"The input has {word_count} words, which is 100 or more.")
+
+# Input from the user
+input_text = input("Enter your text: ")
+check_word_count(input_text)
