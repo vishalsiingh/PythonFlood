@@ -9,7 +9,7 @@ def create_index(text):
     return index
 
 # Example usage
-document = "This is a sample document. This document is a simple example."
+document = "This is a sample document. This docx:-"
 index = create_index(document)
 for word, positions in index.items():
     print(f"{word}: {positions}")
