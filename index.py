@@ -8,7 +8,7 @@ def create_index(text):
         index[word].append(position)
     return index
 
-# Example usage
+
 document = "sample"
 index = create_index(document)
 for word, positions in index.items():
