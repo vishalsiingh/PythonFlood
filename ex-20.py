@@ -7,5 +7,5 @@ def is_prime(num):
             return False
     return True
 
-# Example: Check if 29 is prime
+
 print("Prime" if is_prime(29) else "Not Prime")

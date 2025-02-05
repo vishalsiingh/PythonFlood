@@ -5,5 +5,5 @@ def fibonacci(n):
         print(a, end=" ")
         a, b = b, a + b
 
-# Example: Print Fibonacci numbers up to 100
+
 fibonacci(100)
