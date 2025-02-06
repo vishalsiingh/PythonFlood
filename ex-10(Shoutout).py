@@ -6,7 +6,7 @@ from playsound import playsound
 
 
 
-################### Initialized window####################
+
 
 root = Tk()
 root.geometry('350x300')
