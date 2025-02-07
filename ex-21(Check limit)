@@ -10,6 +10,6 @@ def check_word_count(text):
     else:
         print(f"The input has {word_count} words, which is 100 or more.")
 
-# Input from the user
+
 input_text = input("Enter your text: ")
 check_word_count(input_text)
