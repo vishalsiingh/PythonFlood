@@ -6,7 +6,7 @@ def calculate_average(numbers):
         return 0
     return sum(numbers) / len(numbers)
 
-# Main code
+
 try:
     # Input: List of numbers from the user
     user_input = input("Enter numbers separated by spaces: ")
