@@ -18,19 +18,18 @@ def convert():
         result_label.config(text=f"Result: {result:.2f} {to_unit}")
     except ValueError:
         result_label.config(text="Invalid input! Please enter a number.")
-
-# Create the main window
+        
 app = tk.Tk()
 app.title("Unit Converter")
 app.geometry("300x250")
 
-# Input field
+
 entry_label = tk.Label(app, text="Enter value:")
 entry_label.pack(pady=5)
 entry = tk.Entry(app, width=20)
 entry.pack(pady=5)
 
-# From unit combobox
+
 from_label = tk.Label(app, text="From:")
 from_label.pack(pady=5)
 from_combobox = ttk.Combobox(app, values=["Kilometers", "Meters", "Centimeters", "Millimeters"])
