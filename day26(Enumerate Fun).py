@@ -36,4 +36,4 @@ for index, fruit in enumerate(fruits):
 # The enumerate function is often used when you need to loop over a sequence and
 # perform some action with both the index and value of each element. For example-
 #  you might use it to loop over a list of strings and print the index and 
-#  value of each string .
+#  value of each string 
