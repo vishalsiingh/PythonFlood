@@ -9,7 +9,7 @@ marks=[10,23,27,98,100]
 #         index+=1      
 
 #enumerate use in for
-for index, mark in enumerate(marks,start=1): #start=1 mtlb ki we decide where to start i.e. indexing
+for index, mark in enumerate(marks,start=1): #start=1 mtlb ki we decide where to start basically ye uska  indexing
     print(mark)
     print(index,marks)
 
